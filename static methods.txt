@@ -1,0 +1,12 @@
+Static Methods
+
+-> Created by using static keyword in front of the methods name.
+
+-> Created for memory management as it takes less memory while allocation.
+
+   public static void print(){
+          System.out.println("//Something to be print//");
+    }
+-> A static method only accepts static variables.
+-> if we paas non-static variables in static method it will give an error.
+-> static method cannot be overriden because of early  binding (In this a variable is assigned to a specific type of object during its declaration to create an early-bound object)(conversion of identifiers i.e. public, private, static, final,void,int,float into addresses)
